@@ -60,7 +60,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: orangekekc/infra_actions:v2.02.2023
+          tags: orangekekc/infra_actions
 
   deploy:
     runs-on: ubuntu-latest
